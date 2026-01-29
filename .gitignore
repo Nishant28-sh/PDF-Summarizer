@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+target/
+
+# Build outputs
+dist/
+build/
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Uploads
+uploads/*.pdf
+uploads/*.jpg
+uploads/*.png
+
+# Keep uploads directory
+!uploads/.gitkeep
