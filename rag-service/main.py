@@ -6,6 +6,12 @@ import os
 import requests
 import re
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
+
 app = FastAPI()
 
 UPLOAD_DIR = "uploads"
